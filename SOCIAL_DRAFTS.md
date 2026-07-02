@@ -56,7 +56,7 @@ Exits didn't remove overfitting — they relocated it. A gorgeous in-sample-tune
 exit gave a big OOS point estimate that dies under permutation + bootstrap.
 
 Pre-registration, engine, costs, no-lookahead tests, GBM control — all open:
-[repo link]
+https://github.com/Mykola-Quant/volatility-breakout-falsification
 
 ---
 
@@ -110,7 +110,7 @@ FALSIFIED, including cases where TRAIN selection shows +110 pts/trade that
 collapses to -123 OOS; the weekend-carry test there returns exactly 0.000
 (p=1.000). So the rig catches manufactured edge and invents no spurious effect.
 
-Code, pre-registration, cost model, no-lookahead tests: [repo link]. Curious
+Code, pre-registration, cost model, no-lookahead tests: https://github.com/Mykola-Quant/volatility-breakout-falsification. Curious
 whether anyone here has a vol-breakout variant that survives honest split-half OOS
 with permutation on index futures post-2008 — everything I test evaporates under
 the significance step even when the point estimate looks great.
