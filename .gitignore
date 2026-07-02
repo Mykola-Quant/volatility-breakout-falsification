@@ -1,0 +1,11 @@
+# data (downloaded from Yahoo, not ours to redistribute)
+NQ_continuous_daily.csv
+*.csv
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# os
+.DS_Store
