@@ -37,6 +37,8 @@ rule goes two steps further and shows that gain is indistinguishable from noise.
 | Bootstrap 90% CI | [-93.7, +287.8] | [-35.8, +295.3] |
 | **Verdict** | **FALSIFIED** | **FALSIFIED** |
 
+![OOS equity vs permutation cloud](oos_permutation.png)
+
 Two independent series, selected onto the *same* config, both showing a pretty
 OOS number that fails permutation and bootstrap. That agreement is far stronger
 than any single run.
